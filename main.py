@@ -11,8 +11,9 @@ terms = [
     "crystal meth", "crystal meth sell prices", "how to cook meth", "easy way to cook meth",
     "cocaine", "cocaine price", "how to make cocaine", "https://sunrisehouse.com/cocaine-addiction-treatment/how-made/", "coca leaves", "where can i buy coca plant seeds?", "https://www.amazon.com/Coca-Plant-Seeds/s?k=Coca+Plant+Seeds", "https://www.etsy.com/ie/market/coca_seeds",
     "easy way to kill someone", "strongest poison", "most dangerous poison", "https://theconversation.com/handle-with-care-the-worlds-five-deadliest-poisons-56089",
-    "ricin", "how to make ricin", "https://emergency.cdc.gov/agent/ricin/facts.asp#:~:text=Ricin%20can%20be%20made%20from,centigrade%20(176%20degrees%20Fahrenheit).", "how to make castor oil at home", "https://www.jotscroll.com/castor-oil-how-make-castor-oil-home", "where can i buy castor beans?", "https://www.amazon.com/Castor-Beans/s?k=Castor+Beans"]
-
+    "ricin", "how to make ricin", "https://emergency.cdc.gov/agent/ricin/facts.asp#:~:text=Ricin%20can%20be%20made%20from,centigrade%20(176%20degrees%20Fahrenheit).", "how to make castor oil at home", "https://www.jotscroll.com/castor-oil-how-make-castor-oil-home", "where can i buy castor beans?", "https://www.amazon.com/Castor-Beans/s?k=Castor+Beans",
+    "TATP", "How to make TATP", "https://www.dni.gov/files/NCTC/documents/jcat/firstresponderstoolbox/78--NCTC-DHS-FBI---Triacetone-Triperoxide-(TATP)-.pdf",
+    "Most deadly nerve agents", "a laboratory history of chemical warfare agents", "a laboratory history of chemical warfare agents pdf"]
 for x in terms:
     if "http" in x:
         webbrowser.open_new_tab(x)
