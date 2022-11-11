@@ -10,7 +10,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     url='https://github.com/PiggyAwesome/Government-Watchlistinator/',
-    keywords='sketchy', 'search', "goverment, 'watchlist'
+    keywords=['sketchy', 'search', 'goverment', 'watchlist'],
     install_requires=[
       ],
 
